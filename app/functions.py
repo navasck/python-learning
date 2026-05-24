@@ -44,3 +44,28 @@ def sum_list(numbers):
     return total
 
 print(sum_list([1, 2, 3, 4]))
+
+
+
+def transform(x):
+    if x > 0:
+        return x * 2
+    elif x < 0:
+        return x + 2
+    else:
+        return 0
+
+print(transform(5))
+print(transform(-3))
+print(transform(0))
+
+
+def check_number(num):
+    if num > 0:
+        return "Positive"
+    elif num < 0:
+        return "Negative"
+    else:
+        return "Zero"
+
+print(check_number(-5))
